@@ -7,6 +7,8 @@
     <meta name="keywords" content="彩券, 賽馬博物館, 六合彩結果, 賽馬結果, 足智彩結果, 國際賽馬, 打吡賽">
     <meta name="description" content="致力提供世界最高水平的賽馬、體育及博彩娛樂，同時維持全港最大慈善公益資助機構的地位。">
     <link rel="shortcut icon" href="./favicon.ico">
+    <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./css/vender/swiper.min.css" />
     <link type="text/css" rel="stylesheet" href="./css/hkCommon.css" />
     <link type="text/css" rel="stylesheet" href="./css/header.css" />
     <title>香港賽馬會</title>
@@ -22,7 +24,7 @@
         </div>
     </header>
     <nav>
-        <ul class="ulNav">
+        <ul class="ulNav clearfix">
             <li>馬會概況</li>
             <li>成為會員</li>
             <li>社區貢獻及慈善</li>
@@ -30,8 +32,324 @@
         </ul>
     </nav>
     <section>
-        
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/slideImg_one.jpg" alt="">
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+            <!-- 分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- 滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="latestNews">
+            <div class="row topNews">
+                <div class="col-md-9 col-sm-8" id="newsHeadlines">
+                    <table><tbody><tr><td style="width:80px"><strong>最新消息</strong></td><td><span style="display: inline; opacity: 0.897948;"><a href="http://www.hkjc.com/chinese/corporate/racing_news_item.asp?in_file=/chinese/news/2017-06/news_2017061801528.html&amp;b_cid=EWHPSNC__" target="_blank">沙田馬場慶祝父親節 - 圖輯</a></span></td></tr></tbody></table>
+                </div>
+                <hr class="visible-xs marginTop-15px">
+                <div class="col-md-3 col-sm-4" id="ceoBlogIcon">
+                    <a href="http://corporate.hkjc.com/corporate/chinese/who-we-are/ceo-blog.aspx">
+                        <img class="hidden-xs" src="/home/common/chinese/images/btn-ceo-blog.jpg" alt="應家柏 - 馬會行政總裁網誌" title="應家柏 - 馬會行政總裁網誌">
+                        <img class="visible-xs" src="/home/common/chinese/images/btn-ceo-blog-mobile.jpg" alt="應家柏 - 馬會行政總裁網誌" title="應家柏 - 馬會行政總裁網誌"></a>
+                </div>
+            </div>
+            <div class="mobileSpotlightOutter visible-xs marginBottom-10px">
+                <div class="mobileSpotlight visible-xs marginBottom-10px">
+                    <div class="titleTab">
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td class="mobileSpotlightTab">
+                                    <div class="mtitle">焦點活動</div>
+                                </td>
+                                <td class="mobileSpotlightTabBorder"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mobileSpotlightBox">
+                        <div class="mobileSpotlightBg bannerPromoBg" style="background-image: url(&quot;http://special.hkjc.com/banners/ch/215x224/215-224-hv-Carnivale201706_215x224_c-mobile.jpg?l=EHSE2010&amp;c=hw&quot;);"><a href="Javascript:;" onclick="clickLink(1);return false;"><img src="/home/common/images/spotlight-iframe-bg-32-18.jpg"></a></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="titleTab">
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td class="mobileSpotlightTab">
+                                    <div class="mtitle">節目巡禮</div>
+                                </td>
+                                <td class="mobileSpotlightTabBorder"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mobileSpotlightBox">
+                        <div class="spotlightComingEvent">
+                            <div class="comingEventContainer">
+                                <div class="comingeventarea">
+                                    <div class="eventitems">
+                                        <div class="eventcolume eventcolume1" onclick="javascript:showEvents(1);">
+                                            <div class="eventlist">
+                                                <ul class="eventitemul">
+                                                    <li class="eventitem">
+                                                        <a href="javascript:;">
+                                                            直播皇家雅士谷賽期首天賽事
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <span class="view_more"></span>
+                                                <div class="date">20/06/2017 (二)</div>
+                                            </div>
+                                        </div>
+                                        <div class="eventcolume eventcolume2" onclick="javascript:showEvents(2);">
+                                            <div class="eventlist">
+                                                <ul class="eventitemul">
+                                                    <li class="eventitem">
+                                                        <a href="javascript:;">
+                                                            快活谷森巴狂熱派對
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <span class="view_more"></span>
+                                                <div class="date">21/06/2017 (三)</div>
+                                            </div>
+                                        </div>
+                                        <div class="eventcolume eventcolume3" onclick="javascript:showEvents(3);">
+                                            <div class="eventlist">
+                                                <ul class="eventitemul">
+                                                    <li class="eventitem">
+                                                        <a href="javascript:;">
+                                                            雅士谷金盃賽馬日越洋轉播來港
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <span class="view_more"></span>
+                                                <div class="date">22/06/2017 (四)</div>
+                                            </div>
+                                        </div>
+                                        <div class="eventcolume eventcolume4" onclick="javascript:showEvents(4);">
+                                            <div class="eventlist">
+                                                <ul class="eventitemul">
+                                                    <li class="eventitem">
+                                                        <a href="javascript:;">
+                                                            皇家雅士谷賽期煞科- 鑽禧錦標賽馬日
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <span class="view_more"></span>
+                                                <div class="date">24/06/2017 (六)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eventdetailcolume_1" style="display:none">
+                                    <div class="eventdetailcontent">
+                                        <h1>
+                                            直播皇家雅士谷賽期首天賽事
+                                        </h1>
+                                        <div class="date">20/06/2017 (二)</div>
+                                        <div class="eventdetailcontentwrapper">
+                                            <div class="context"><p><img src="http://special.hkjc.com/include/ch/data/images/coming_events/eng_flag_135x113.jpg" hspace="0" vspace="0" border="0" align="left">馬會將轉播皇家雅士谷賽期的首天賽事，皇席錦標賽馬日為皇家雅士谷賽期最多國際一級賽上演的一日。
+                                                <br><a href="http://racing.hkjc.com/racing/overseas/chinese/20170622/S2/4/index.aspx?para=/20170622/S2/4" target="_blank" class="eventdetailcontent_more" name="eventdetailcontent_more">更多</a></p></div>
+                                            <div class="backlink" onclick="javascript:hideEvents(1);">
+                                                <a class="view_back" href="javascript:;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eventdetailcolume_2" style="display:none">
+                                    <div class="eventdetailcontent">
+                                        <h1>
+                                            快活谷森巴狂熱派對
+                                        </h1>
+                                        <div class="date">21/06/2017 (三)</div>
+                                        <div class="eventdetailcontentwrapper">
+                                            <div class="context"><p><img src="http://special.hkjc.com/include/ch/data/images/coming_events/135-113-hv-Carnivale201706.jpg" hspace="0" vspace="0" border="0" align="left">森巴狂熱派對重臨跑馬地馬場，把握機會入場感受巴西森巴風情，欣賞特色表演，快活森巴夜定必讓你樂而忘返，拋卻煩憂!
+                                                <br><a href="http://happywednesday.hkjc.com/en/parties-Carnivale2017-intro.aspx" target="_blank" class="eventdetailcontent_more" name="eventdetailcontent_more">更多</a></p></div>
+                                            <div class="backlink" onclick="javascript:hideEvents(2);">
+                                                <a class="view_back" href="javascript:;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eventdetailcolume_3" style="display:none">
+                                    <div class="eventdetailcontent">
+                                        <h1>
+                                            雅士谷金盃賽馬日越洋轉播來港
+                                        </h1>
+                                        <div class="date">22/06/2017 (四)</div>
+                                        <div class="eventdetailcontentwrapper">
+                                            <div class="context"><p><img src="http://special.hkjc.com/include/ch/data/images/coming_events/eng_flag_135x113.jpg" hspace="0" vspace="0" border="0" align="left">雅士谷金盃（4000米一級賽）是英國最享負盛名的長途賽事，亦是當地長途馬三冠大賽的首關。
+                                                <br></p></div>
+                                            <div class="backlink" onclick="javascript:hideEvents(3);">
+                                                <a class="view_back" href="javascript:;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eventdetailcolume_4" style="display:none">
+                                    <div class="eventdetailcontent">
+                                        <h1>
+                                            皇家雅士谷賽期煞科- 鑽禧錦標賽馬日
+                                        </h1>
+                                        <div class="date">24/06/2017 (六)</div>
+                                        <div class="eventdetailcontentwrapper">
+                                            <div class="context"><p><img src="http://special.hkjc.com/include/ch/data/images/coming_events/eng_flag_135x113.jpg" hspace="0" vspace="0" border="0" align="left">鑽禧錦標（1200米國際一級賽）供三歲及以上馬匹參加。另一場重點賽事夏域錦標（2400米國際二級賽，供四歲及以上馬匹參加），則是英皇錦標的其中一場前哨戰。
+                                                <br></p></div>
+                                            <div class="backlink" onclick="javascript:hideEvents(4);">
+                                                <a class="view_back" href="javascript:;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row focusNews">
+                <hr>
+                <div class="col-md-12 visible-xs marginTop-15px marginBottom-15px"><h1>馬會消息</h1></div>
+                <div class="focusNewsList">
+                    <div class="focusNewsItem col-md-4">
+                        <div class="row homeItem" id="homeFeature1">
+                            <div class="col-md-4 col-sm-2 col-xs-4 photo">
+                                <img title="「巴基之星」週日力爭精英碟" alt="" src="http://corporate.hkjc.com/image/201706/JS1_imgnews_102746_242x242.jpg">
+                            </div>
+                            <div class="visible-xs col-xs-8 mobileNewsTitle">
+                                <div><strong class="dTitleCat"></strong></div>
+                                <div><strong class="dTitleTxt">賽馬<br>「巴基之星」週日力爭精英碟</strong></div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-12 detail">
+                                <a href="http://www.hkjc.com/chinese/corporate/racing_news_item.asp?in_file=/chinese/news/2017-06/news_2017062001438.html&amp;b_cid=EWHPJSC__" target="_blank">
+                                    <div class="detail_content">
+                                        <div class="dTitle hidden-xs">
+                                            <div><strong class="dTitleCat"></strong></div>
+                                            <div><strong class="dTitleTxt">賽馬<br>「巴基之星」週日力爭精英碟</strong></div>
+                                        </div>
+                                        <div class="dContent marginTop-15px"><br><p>今季表現出色的「巴基之星」本週日（6月25日）將出戰其季內最後一場賽事精英碟（1800米三級賽），包括其騎師在內的幕後人士均期望這匹四歲之星能順利擊敗五匹對手，拿下其首項分級賽錦標。<br><br><br></p></div>
+                                    </div>
+                                    <div class="view_more link" style="display: none;">更多</div>
+                                </a>
+                                <a class="view_more morelink" href="http://www.hkjc.com/chinese/corporate/racing_news_item.asp?in_file=/chinese/news/2017-06/news_2017062001438.html&amp;b_cid=EWHPJSC__" style="" target="_blank">更多</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="visible-sm visible-xs">
+                    <div class="focusNewsItem col-md-4">
+                        <div class="row homeItem" id="homeFeature2">
+                            <div class="col-md-4 col-sm-2 col-xs-4 photo">
+                                <img title="葡萄牙挑戰主辦國" alt="" src="http://racing.hkjc.com/image/201706/js2_170619_242x242.jpg">
+                            </div>
+                            <div class="visible-xs col-xs-8 mobileNewsTitle">
+                                <div><strong class="dTitleCat"></strong></div>
+                                <div><strong class="dTitleTxt">體育及娛樂<br>葡萄牙挑戰主辦國</strong></div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-12 detail">
+                                <a href="http://football.hkjc.com/football/statistics/chinese/head-to-head/recent-form.aspx?tdate=21-06-2017&amp;tday=WED&amp;tnum=15&amp;b_cid=EWHPJSC__" target="_self">
+                                    <div class="detail_content">
+                                        <div class="dTitle hidden-xs">
+                                            <div><strong class="dTitleCat"></strong></div>
+                                            <div><strong class="dTitleTxt">體育及娛樂<br>葡萄牙挑戰主辦國</strong></div>
+                                        </div>
+                                        <div class="dContent marginTop-15px"><br><p>葡萄牙於洲際國家盃首戰失利，完場前被墨西哥迫和痛失兩分﹔這支歐國盃冠軍將於週三 (6月21日) 挑戰主辦國俄羅斯，後者首戰旗開得勝暫於A組領先。飽受負面新聞困擾的基斯坦奴朗拿度，首場賽事被選為最佳球員但無入球進賬，今場當然希望以入球助葡萄牙全取三分。</p></div>
+                                    </div>
+                                    <div class="view_more link" style="display: none;">更多</div>
+                                </a>
+                                <a class="view_more morelink" href="http://football.hkjc.com/football/statistics/chinese/head-to-head/recent-form.aspx?tdate=21-06-2017&amp;tday=WED&amp;tnum=15&amp;b_cid=EWHPJSC__" style="" target="_self">更多</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="visible-sm visible-xs">
+                    <div class="focusNewsItem col-md-4">
+                        <div class="row homeItem" id="homeFeature3">
+                            <div class="col-md-4 col-sm-2 col-xs-4 photo">
+                                <img title="「馬會青少年足球領袖計劃」　優秀學員暑假赴英交流" alt="" src="http://corporate.hkjc.com/image/201706/imgnews_102741_l_101_242x242.jpg">
+                            </div>
+                            <div class="visible-xs col-xs-8 mobileNewsTitle">
+                                <div><strong class="dTitleCat"></strong></div>
+                                <div><strong class="dTitleTxt">社區貢獻及慈善<br>「馬會青少年足球領袖計劃」　優秀學員暑假赴英交流</strong></div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-12 detail">
+                                <a href="http://corporate.hkjc.com/corporate/corporate-news/chinese/2017-06/news_2017061701853.aspx?b_cid=EWHPJSC__" target="_self">
+                                    <div class="detail_content">
+                                        <div class="dTitle hidden-xs">
+                                            <div><strong class="dTitleCat"></strong></div>
+                                            <div><strong class="dTitleTxt">社區貢獻及慈善<br>「馬會青少年足球領袖計劃」　優秀學員暑假赴英交流</strong></div>
+                                        </div>
+                                        <div class="dContent marginTop-15px"><br><p>2014年推出、透過初級足球教練班及專題工作坊培育領袖才能的「賽馬會青少年足球領袖計劃」，於6月17日舉行第四屆結業儀式，同場公佈訓練期間表現優秀而獲選於八月前往英國曼徹斯特的六位學員名單。他們將參加曼聯基金會在當地舉行的青少年義工訓練，籌辦社區活動，汲取經驗，增廣見聞，從而裝備自己，日後回饋社會。</p><br><br></div>
+                                    </div>
+                                    <div class="view_more link" style="display: none;">更多</div>
+                                </a>
+                                <a class="view_more morelink" href="http://corporate.hkjc.com/corporate/corporate-news/chinese/2017-06/news_2017061701853.aspx?b_cid=EWHPJSC__" style="" target="_self">更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div id="rgp-container">
+            <div class="container">
+                <div class="row no-gutter">
+                    <div class="col-md-10 col-sm-10 col-xs-12 marginTop-20px">
+                        <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" target="_blank"> <b>博彩要有節制</b></a>
+                        <ul class="hidden-xs">
+                            <li>未滿十八歲人士不得投注或進入可投注的地方。</li>
+                            <li>向非法或海外莊家下注，最高可被判監九個月及罰款三萬元。</li>
+                            <li>切勿沉迷賭搏，如需尋求輔導協助，可致電1834633。</li>
+                        </ul>
+                        <ul class="visible-xs">
+                            <li>入場及投注人士須年滿十八歲，切勿沉迷賭博。</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 hidden-xs txt-right marginTop-15px">
+                        <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" target="_blank"><img src="/home/common/images/rgp_text_chi_970.gif" style="width: auto"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copyright-container">
+            <div class="container">
+                <div class="row no-gutter">
+                    <div class="col-md-8 col-xs-12 col-sm-12 txt-left">
+                        <a class="first" href="http://common.hkjc.com/utility/faq/chinese/general/usage.aspx" target="_blank">常見問題</a> | <a href="javascript:NewWindow('http://special.hkjc.com/infomenu/ch/contact/feedback.asp','mypopup','770','550','yes','yes');">聯絡我們</a> | <a href="javascript:NewWindow('http://mcs.hkjc.com/','mypopup','770','550','yes','yes');">傳媒專用區</a> | <a href="http://www.hkjc.com/home/chinese/sitemap.aspx">網頁指南</a> | <a href="javascript:NewWindow('http://www.hkjc.com/chinese/betting/betting_rule.htm','mypopup','770','550','yes','yes');">規例</a> | <a href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" target="_blank">提倡有節制博彩</a> | <a href="http://www.hkjc.com/home/chinese/corporate/corp_privacy.aspx">私隱條款</a> | <a href="http://www.hkjc.com/home/chinese/corporate/corp_disclaimer.aspx">免責聲明</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-12 txt-right">
+                        版權所有 不得轉載 © 2000-2017 香港賽馬會
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
+
 </body>
+<script type="text/javascript" src="js/vender/swiper.min.js"></script>
+<script>
+    let HomeSwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        // 如果需要滚动条
+        scrollbar: '.swiper-scrollbar',
+    })
+</script>
 </html>

@@ -16,15 +16,20 @@ ul.dropdown li a, .main-nav .nav-level-1>li>a {
 }
 
 @media screen and (max-width: 767px) {
-
     body{
         font-size: 14px;
     }
-
 }
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .clearfix{*+height:1%;}
 a, a:link, a:active, a:visited, a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.row {
+    padding-bottom: 5px;
+}
+.row.no-gutter [class*='col-']:not(:first-child), .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
 }

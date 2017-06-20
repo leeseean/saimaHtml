@@ -10,7 +10,23 @@
 }
 .homeWrapper>header .headRight{
     float: right;
-    width:75%;
+    width: 291px;
+    height: 91px;
     background-image: url(../images/headerRight.png);
+}
+.homeWrapper>header .headerBottom{
+    background-image: url(../images/headerBanner.png);
+    width: 972px;
+    height: 130px;
+}
+.homeWrapper>nav>ul.ulNav{
+    background-color: rgba(228, 228, 228, 1);
+    float: left;
+}
+.homeWrapper>nav>ul.ulNav>li{
+    width:25%;
+}
+.homeWrapper>nav>ul.ulNav>li:nth-child(1),.homeWrapper>nav>ul.ulNav>li:nth-child(2),.homeWrapper>nav>ul.ulNav>li:nth-child(3){
+    border-right:solid 1px white;
 }
 

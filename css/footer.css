@@ -1,0 +1,13 @@
+#copyright-container {
+    color: #00326F;
+    font-size: 0.923em;
+    line-height: 18px;
+}
+#copyright-container .container {
+    min-width: 320px;
+    padding: 5px 20px;
+}
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
