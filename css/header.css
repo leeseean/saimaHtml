@@ -1,0 +1,16 @@
+.homeWrapper{
+    margin:auto;
+    width:972px;
+}
+.homeWrapper>header .headLogo{
+    background-image: url(../images/logo_hkjc.png);
+    width: 25%;
+    height:65px;
+    float: left;
+}
+.homeWrapper>header .headRight{
+    float: right;
+    width:75%;
+    background-image: url(../images/headerRight.png);
+}
+

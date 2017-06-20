@@ -1,0 +1,30 @@
+body{
+    font-family: "微軟正黑體", Arial, Helvetica, Verdana;
+    font-size: 13px;
+}
+header .nav {
+    font-size: 0.923em;
+}
+
+ul.dropdown li a, .main-nav .nav-level-1>li>a {
+    font-size: 1.077em;
+    font-weight: bold;
+}
+
+.rgp-text{
+    font-family: "微軟正黑體", Arial, Helvetica, Verdana;
+}
+
+@media screen and (max-width: 767px) {
+
+    body{
+        font-size: 14px;
+    }
+
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+a, a:link, a:active, a:visited, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
