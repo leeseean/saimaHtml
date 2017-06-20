@@ -6,8 +6,44 @@
 #copyright-container .container {
     min-width: 320px;
     padding: 5px 20px;
+    width: 972px;
 }
 .row.no-gutter {
     margin-left: 0;
     margin-right: 0;
+}
+.txt-left {
+    text-align: left;
+}
+#copyright-container a {
+    color: #00326F;
+    line-height: 20px;
+    text-decoration: none;
+}
+.txt-right {
+    text-align: right;
+}
+#rgp-container {
+    line-height: 1.5;
+    color: #000;
+}
+#rgp-container .container{
+    padding-left: 20px;
+    width: 972px;
+}
+.marginTop-20px {
+    margin-top: 20px !important;
+}
+.marginTop-15px {
+    margin-top: 15px !important;
+}
+#rgp-container b {
+    font-size: 1.17em;
+    line-height: 1.5;
+    color: #013370;
+}
+#footer b {
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
 }

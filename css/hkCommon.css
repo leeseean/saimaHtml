@@ -1,35 +1,51 @@
-body{
+body {
     font-family: "微軟正黑體", Arial, Helvetica, Verdana;
     font-size: 13px;
 }
+
 header .nav {
     font-size: 0.923em;
 }
 
-ul.dropdown li a, .main-nav .nav-level-1>li>a {
+ul.dropdown li a,
+.main-nav .nav-level-1>li>a {
     font-size: 1.077em;
     font-weight: bold;
 }
 
-.rgp-text{
+.rgp-text {
     font-family: "微軟正黑體", Arial, Helvetica, Verdana;
 }
 
 @media screen and (max-width: 767px) {
-    body{
+    body {
         font-size: 14px;
     }
 }
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.clearfix{*+height:1%;}
-a, a:link, a:active, a:visited, a:hover {
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+a,
+a:link,
+a:active,
+a:visited,
+a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 .row {
     padding-bottom: 5px;
 }
-.row.no-gutter [class*='col-']:not(:first-child), .row.no-gutter [class*='col-']:not(:last-child) {
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
     padding-right: 0;
     padding-left: 0;
 }
