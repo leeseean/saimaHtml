@@ -1,0 +1,67 @@
+#main #charities-container {
+    font-size: 1em;
+    float: left;
+    width: 99%;
+    background-color: #fff;
+}
+#nav-left .nav-left-header {
+    color: #D9AD00;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #D9AD00;
+    line-height: 150%;
+}
+#nav-left li a.active {
+    color: #D9AD00;
+    text-decoration: none;
+    border: 0px;
+    font-weight: bold;
+}
+#nav-left li {
+    border-bottom: 1px dotted #cfcfcf;
+    font-size: 1em;
+    color: #666;
+    font-weight: bold;
+    padding: 5px 0px;
+    line-height: 200%;
+}
+body .zh h4 {
+    font-size: 1.308em;
+}
+body h4 {
+    padding: 0 0 4px 0;
+    line-height: 1.5;
+    color: #D9AD00;
+}
+#main #charities-container img {
+    width: 100%;
+}
+#main #charities-container .charities-content-container a {
+    color: #D9AD00;
+    word-wrap: break-word;
+}
+.topheader {
+    padding: 7px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #D9AD00;
+    color: #fff;
+}
+.charities-content-box-container {
+    position: relative;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.charities-content-box-container .bullet-icon {
+    padding: 8px 0 0 0;
+}
+.bullet-icon ul, ul.arrowList {
+    padding-left: 15px !important;
+    list-style: none;
+}
+.charities-content-box-container .bullet-icon li {
+    border-bottom: 1px solid #cfcfcf;
+    margin: 0px 10px 8px 0px;
+    padding: 0 0 5px 12px;
+}

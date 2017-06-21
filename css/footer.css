@@ -3,11 +3,6 @@
     font-size: 0.923em;
     line-height: 18px;
 }
-#copyright-container .container {
-    min-width: 320px;
-    padding: 5px 20px;
-    width: 972px;
-}
 .row.no-gutter {
     margin-left: 0;
     margin-right: 0;
@@ -26,10 +21,6 @@
 #rgp-container {
     line-height: 1.5;
     color: #000;
-}
-#rgp-container .container{
-    padding-left: 20px;
-    width: 972px;
 }
 .marginTop-20px {
     margin-top: 20px !important;

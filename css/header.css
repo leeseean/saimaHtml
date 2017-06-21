@@ -1,58 +1,80 @@
-.homeWrapper{
+.wrapper{
     margin:auto;
-    width:972px;
 }
-.homeWrapper>header .headLogo{
+header .headLogo{
     background-image: url(../images/logo_hkjc.png);
     width: 222px;
     height:65px;
     float: left;
 }
-.homeWrapper>header .headRight{
+header .headRight{
     float: right;
     width: 291px;
     height: 91px;
     background-image: url(../images/headerRight.png);
 }
-.homeWrapper>header .headerBottom{
+header .headerBottom{
     background-image: url(../images/headerBanner.png);
-    width: 972px;
     height: 130px;
 }
-.homeWrapper>nav>ul.ulNav{
+nav>ul.ulNav{
     background-color: rgba(228, 228, 228, 1);
-    text-align: center;
-    margin-bottom: 0;
+    margin-bottom:0;
 }
-.homeWrapper>nav>ul.ulNav>li{
-    width: 243px;
+nav>ul.ulNav>li{
+    width:25%;
     float: left;
-    height: 27px;
+    text-align: center;
+    background-image: url(../images/nav-bg.jpg);
+    background-repeat: repeat-x;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1em;
     line-height: 27px;
     position: relative;
-    cursor: pointer;
 }
-/*.homeWrapper>nav>ul.ulNav>li:hover{
-    text-decoration: underline;
-}*/
-.homeWrapper>nav>ul.ulNav>li>ul.subMenu{
-    display: none;
+nav>ul.ulNav>li:hover{
+    background-color: #fff;
+    background-image: none;
+    color: #022169;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid #022169;
+    border-bottom: 1px solid #022169;
+    height: 27px;
 }
-.homeWrapper>nav>ul.ulNav>li:hover>ul.subMenu{
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 0;
-    z-index: 100;
-    width: 260px;
-    text-align: left;
-    padding-left: 10px;
-    background: rgba(228, 228, 228, 1);
-}
-.homeWrapper>nav>ul.ulNav>li>ul.subMenu>li.subMenuItem:hover{
-    text-decoration: underline;
-}
-.homeWrapper>nav>ul.ulNav>li:nth-child(1),.homeWrapper>nav>ul.ulNav>li:nth-child(2),.homeWrapper>nav>ul.ulNav>li:nth-child(3){
+nav>ul.ulNav>li:nth-child(1),nav>ul.ulNav>li:nth-child(2),nav>ul.ulNav>li:nth-child(3){
     border-right:solid 1px white;
 }
+nav>ul.ulNav>li>ul.subMenu{
+    display: none;
+}
+nav>ul.ulNav>li:hover>ul.subMenu{
+    display: block;
+    position: absolute;
+    top:27px;
+    z-index: 2;
+    width:100%;
+}
+nav>ul.ulNav>li>ul.subMenu>li.subMenuItem{
+     font-weight: normal;
+     color: #000;
+     border-bottom: 1px dotted #ccc;
+ }
+nav>ul.ulNav>li>ul.subMenu>li.subMenuItem>a:hover{
+    background-image: url(../images/nav-bg.jpg);
+    background-repeat: repeat-x;
+    color: white;
+}
+nav>ul.ulNav>li>ul.subMenu>li.subMenuItem>a{
+    display: inline-block;
+    color: #022169;
+    font-weight: bold;
+    background-color: #FFF;
+    width:100%;
+}
 
+.nav-arrow {
+    background: url(../images/nav_arrow.gif) no-repeat 100% 0;
+    background-position: right center;
+}

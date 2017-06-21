@@ -49,3 +49,122 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+.mobile-title-en, .mobile-title-zh {
+    padding: 15px 10px;
+    font-size: 1.286em;
+    color: #4e1b6a;
+    display: none;
+    border-bottom: 1px solid #481e66;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(207,184,254,1);
+    background: -moz-linear-gradient(45deg, rgba(207,184,254,1) 0%, rgba(241,233,246,1) 50%, rgba(207,184,254,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(207,184,254,1)), color-stop(50%, rgba(241,233,246,1)), color-stop(100%, rgba(207,184,254,1)));
+    background: -webkit-linear-gradient(45deg, rgba(207,184,254,1) 0%, rgba(241,233,246,1) 50%, rgba(207,184,254,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(207,184,254,1) 0%, rgba(241,233,246,1) 50%, rgba(207,184,254,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(207,184,254,1) 0%, rgba(241,233,246,1) 50%, rgba(207,184,254,1) 100%);
+    background: linear-gradient(45deg, rgba(207,184,254,1) 0%, rgba(241,233,246,1) 50%, rgba(207,184,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfb8fe', endColorstr='#cfb8fe', GradientType=1 );
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 3px rgba(147, 138, 163, 0.8);
+    text-transform: uppercase !important;
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.1);
+}
+#nav-left .nav-level-1 {
+    border-bottom: 1px solid #C2A216;
+}
+#nav-left li {
+    border-bottom: 1px dotted #cfcfcf;
+    font-size: 1em;
+    color: #666;
+    font-weight: bold;
+    padding: 5px 0px;
+    line-height: 200%;
+}
+#nav-left .nav-left-header {
+    font-size: 1.17em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #C2A216;
+    line-height: 150%;
+    color: #C2A216;
+}
+#nav-left li a.active {
+    color: #C2A216;
+    text-decoration: none;
+    border: 0px;
+    font-weight: bold;
+}
+.contact-us-field-y {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #FFFAE7;
+    text-align: center;
+}
+.contact-us-field-y li {
+    background: none !important;
+    background-position: left 12px;
+    background-repeat: no-repeat;
+    border-bottom: 0px !important;
+    position: relative;
+    font-weight: normal;
+}
+.contact-us-field-y li a {
+    color: #C2A216;
+    font-size: 1em !important;
+    font-weight: normal;
+}
+.contact-us-field-y li :before {
+    content: "\f003" "\00a0";
+    font-family: FontAwesome;
+    position: relative;
+    color: #C2A216;
+    font-size: 1.17em !important;
+    font-weight: normal;
+}
+.contact-us-field-y li :after {
+    content: "\00a0" "\00a0";
+}
+#main #member-container .member-header h4 {
+    color: #C2A216;
+}
+body .zh h4 {
+    font-size: 1.308em;
+}
+
+body h4 {
+    padding: 0 0 4px 0;
+    line-height: 1.5;
+}
+.txt-center {
+    text-align: center;
+}
+.zh .listing .content {
+    padding-right: 20px;
+}
+.listing .content {
+    padding-left: 10px;
+    min-height: 52px;
+}
+.listing .title {
+    line-height: 1.5;
+    font-weight: bold;
+    color: #C2A216;
+}
+#main #member-container .member-content-container a:hover {
+    text-decoration: underline;
+}
+.listing .topheader {
+    padding: 7px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #E8CE66;
+    color: #000;
+}
+.mobile-title-zh {
+    font-family: "微軟正黑體", arial !important;
+    font-size: 1.286em;
+}
+
