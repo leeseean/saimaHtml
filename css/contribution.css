@@ -65,3 +65,9 @@ body h4 {
     margin: 0px 10px 8px 0px;
     padding: 0 0 5px 12px;
 }
+.mascot-video-container {
+    display: table-cell;
+    width: 100%;
+    vertical-align: bottom;
+    padding-top: 20px;
+}
