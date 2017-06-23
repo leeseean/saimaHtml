@@ -5,6 +5,12 @@
 #main .shadowL {
     background: url(../images/content_shadow_L.png) no-repeat right;
 }
+.videoBox{
+    text-align: center;
+}
+#vidplayer0_html5_api{
+    width:600px;
+}
 #main .shadowL, #main .shadowR {
     width: 0.5% !important;
     height: 124px;
