@@ -32,6 +32,7 @@ nav>ul.ulNav>li{
     font-size: 1em;
     line-height: 27px;
     position: relative;
+    z-index: 2;
 }
 nav>ul.ulNav>li:hover{
     background-color: #fff;
@@ -43,6 +44,13 @@ nav>ul.ulNav>li:hover{
     border-bottom: 1px solid #022169;
     height: 27px;
 }
+nav>ul.ulNav>li>a{
+    display: block;
+    color: inherit;
+}
+nav>ul.ulNav>li>a:hover{
+    color: #022169;
+}
 nav>ul.ulNav>li:nth-child(1),nav>ul.ulNav>li:nth-child(2),nav>ul.ulNav>li:nth-child(3){
     border-right:solid 1px white;
 }
@@ -51,9 +59,7 @@ nav>ul.ulNav>li>ul.subMenu{
 }
 nav>ul.ulNav>li:hover>ul.subMenu{
     display: block;
-    position: absolute;
-    top:27px;
-    z-index: 2;
+
     width:100%;
 }
 nav>ul.ulNav>li>ul.subMenu>li.subMenuItem{
