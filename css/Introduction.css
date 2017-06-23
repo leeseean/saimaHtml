@@ -334,3 +334,7 @@ body p {
     border-bottom: 1px dotted #cfcfcf;
     padding: 3px 0;
 }
+#corporate-container>div.online_video{
+    width:500px;
+    height:500px;
+}

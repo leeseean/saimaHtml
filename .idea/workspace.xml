@@ -2,46 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b03d56-4e8c-4f8f-8d64-6ca88ff757ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slideImg_one.jpg" afterPath="$PROJECT_DIR$/images/slideImg_one.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vender/lazyload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vender/milestone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vender/photoswipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vender/swiper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vender/timeline.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Introduction.css" afterPath="$PROJECT_DIR$/css/Introduction.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction.html" afterPath="$PROJECT_DIR$/html/Introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_a.html" afterPath="$PROJECT_DIR$/html/Introduction_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_b.html" afterPath="$PROJECT_DIR$/html/Introduction_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_c.html" afterPath="$PROJECT_DIR$/html/Introduction_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_d.html" afterPath="$PROJECT_DIR$/html/Introduction_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_e.html" afterPath="$PROJECT_DIR$/html/Introduction_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_f.html" afterPath="$PROJECT_DIR$/html/Introduction_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_g.html" afterPath="$PROJECT_DIR$/html/Introduction_g.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_h.html" afterPath="$PROJECT_DIR$/html/Introduction_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution.html" afterPath="$PROJECT_DIR$/html/contribution.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_a.html" afterPath="$PROJECT_DIR$/html/contribution_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_b.html" afterPath="$PROJECT_DIR$/html/contribution_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_c.html" afterPath="$PROJECT_DIR$/html/contribution_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_d.html" afterPath="$PROJECT_DIR$/html/contribution_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_e.html" afterPath="$PROJECT_DIR$/html/contribution_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_f.html" afterPath="$PROJECT_DIR$/html/contribution_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_g.html" afterPath="$PROJECT_DIR$/html/contribution_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_h.html" afterPath="$PROJECT_DIR$/html/contribution_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_i.html" afterPath="$PROJECT_DIR$/html/contribution_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history.html" afterPath="$PROJECT_DIR$/html/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_a.html" afterPath="$PROJECT_DIR$/html/history_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_b.html" afterPath="$PROJECT_DIR$/html/history_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_c.html" afterPath="$PROJECT_DIR$/html/history_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_c_1415.html" afterPath="$PROJECT_DIR$/html/history_c_1415.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_d.html" afterPath="$PROJECT_DIR$/html/history_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member.html" afterPath="$PROJECT_DIR$/html/member.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_a.html" afterPath="$PROJECT_DIR$/html/member_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_b.html" afterPath="$PROJECT_DIR$/html/member_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_c.html" afterPath="$PROJECT_DIR$/html/member_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_d.html" afterPath="$PROJECT_DIR$/html/member_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_e.html" afterPath="$PROJECT_DIR$/html/member_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_f.html" afterPath="$PROJECT_DIR$/html/member_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_h.html" afterPath="$PROJECT_DIR$/html/member_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_i.html" afterPath="$PROJECT_DIR$/html/member_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_j.html" afterPath="$PROJECT_DIR$/html/member_j.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <ignored path="香港赛马会.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +29,50 @@
     <favorites_list name="香港赛马会" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.488889">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Introduction.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/Introduction.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.888889">
+              <caret line="338" column="17" selection-start-line="338" selection-start-column="17" selection-end-line="338" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Introduction_h.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/Introduction_h.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7788698">
+              <caret line="154" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="7" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +108,6 @@
         <option value="$PROJECT_DIR$/css/history.css" />
         <option value="$PROJECT_DIR$/js/header.js" />
         <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/css/Introduction.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/html/Introduction.html" />
         <option value="$PROJECT_DIR$/html/Introduction_a.html" />
@@ -108,7 +117,6 @@
         <option value="$PROJECT_DIR$/html/Introduction_e.html" />
         <option value="$PROJECT_DIR$/html/Introduction_f.html" />
         <option value="$PROJECT_DIR$/html/Introduction_g.html" />
-        <option value="$PROJECT_DIR$/html/Introduction_h.html" />
         <option value="$PROJECT_DIR$/html/contribution.html" />
         <option value="$PROJECT_DIR$/html/contribution_a.html" />
         <option value="$PROJECT_DIR$/html/contribution_b.html" />
@@ -135,6 +143,9 @@
         <option value="$PROJECT_DIR$/html/member_h.html" />
         <option value="$PROJECT_DIR$/html/member_i.html" />
         <option value="$PROJECT_DIR$/html/member_j.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/Introduction.css" />
+        <option value="$PROJECT_DIR$/html/Introduction_h.html" />
       </list>
     </option>
   </component>
@@ -182,7 +193,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
@@ -266,7 +277,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -314,55 +325,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vender/photoswipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="3767" selection-start-line="3" selection-start-column="3764" selection-end-line="3" selection-end-column="3767" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vender/milestone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vender/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1074" column="0" selection-start-line="1074" selection-start-column="0" selection-end-line="1074" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#4013#4060#0" expanded="false" />
-            <element signature="e#4124#4185#0" expanded="false" />
-            <element signature="e#4203#4478#0" expanded="false" />
-            <element signature="e#4520#4838#0" expanded="false" />
-            <element signature="e#5277#5341#0" expanded="false" />
-            <element signature="e#5807#6278#0" expanded="false" />
-            <element signature="e#7089#7883#0" expanded="false" />
-            <element signature="e#7923#8060#0" expanded="false" />
-            <element signature="e#9022#9308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vender/lazyload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -416,31 +383,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Introduction.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.8">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/FontAwesome/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2236842">
           <caret line="3" column="5283" selection-start-line="3" selection-start-column="5283" selection-end-line="3" selection-end-column="5283" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2063882">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,19 +519,6 @@
             <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Introduction_h.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.111111">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,6 +853,42 @@
             <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.488889">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Introduction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.888889">
+          <caret line="338" column="17" selection-start-line="338" selection-start-column="17" selection-end-line="338" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Introduction_h.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7788698">
+          <caret line="154" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="7" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
