@@ -18,142 +18,283 @@
     <link type="text/css" rel="stylesheet" href="../css/Introduction.css" />
 
     <script type="text/javascript" src="../js/vender/jquery.js"></script>
+    <script type="text/javascript" src="../js/vender/laydate/laydate.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
 
     <title>香港賽馬會</title>
 </head>
-<body>
-<div class="wrapper">
-    <header class="container">
-    <div class="headerTop clearfix">
-        <div class="headLogo"> <a href="../index.html"></a></div>
-        <div class="headRight"></div>
-    </div>
-    <div class="headerBottom">
-    </div>
-</header>
-    <nav class="container">
-        <ul class="ulNav clearfix">
-        <li>馬會概況
-            <ul class="subMenu">
-                <li class="subMenuItem"><a href="./Introduction.html" class="nav-arrow" >目標--使命與核心價值</a></li>
-                <li class="subMenuItem"><a href="./Introduction_a.html" class="nav-arrow" >行政架構</a></li>
-                <li class="subMenuItem"><a href="./Introduction_b.html" class="nav-arrow" >賽馬及馬場娛樂</a></li>
-                <li class="subMenuItem"><a href="./Introduction_c.html" class="nav-arrow" >會員會所</a></li>
-                <li class="subMenuItem"><a href="./Introduction_d.html" class="nav-arrow" >有節制體育博彩及六合彩獎券</a></li>
-                <li class="subMenuItem"><a href="./Introduction_e.html" class="nav-arrow" >慈善事物</a></li>
-                <li class="subMenuItem"><a href="./Introduction_f.html" class="nav-arrow" >馬會體育及社區發展</a></li>
-                <li class="subMenuItem"><a href="./Introduction_g.html" class="nav-arrow" >獎項及榮譽</a></li>
-                <li class="subMenuItem"><a href="./Introduction_h.html" class="nav-arrow" >模擬賽馬開獎結果</a></li>
-            </ul>
-        </li>
-        <li>成為會員
-            <ul class="subMenu">
-                <li class="subMenuItem"><a href="./member.html" class="nav-arrow" >簡介</a></li>
-                <li class="subMenuItem"><a href="./member_a.html" class="nav-arrow" >會員卡簽賬權</a></li>
-                <li class="subMenuItem"><a href="./member_b.html" class="nav-arrow" >會員優惠</a></li>
-                <li class="subMenuItem"><a href="./member_c.html" class="nav-arrow" >Young Menbers</a></li>
-                <li class="subMenuItem"><a href="./member_d.html" class="nav-arrow" >會員迎新</a></li>
-                <li class="subMenuItem"><a href="./member_e.html" class="nav-arrow" >遵守事項</a></li>
-                <li class="subMenuItem"><a href="./member_f.html" class="nav-arrow" >駕駛及泊車指南</a></li>
-                <li class="subMenuItem"><a href="./member_g.html" class="nav-arrow" >設施指南</a></li>
-                <li class="subMenuItem"><a href="./member_h.html" class="nav-arrow" >會籍狀態及表格章程</a></li>
-                <li class="subMenuItem"><a href="./member_i.html" class="nav-arrow" >常見問題</a></li>
-                <li class="subMenuItem"><a href="./member_j.html" class="nav-arrow" >電話指南</a></li>
-            </ul>
-        </li>
-        <li>社區貢獻及慈善
-            <ul class="subMenu">
-                <li class="subMenuItem"><a href="./contribution.html" class="nav-arrow" >青年發展</a></li>
-                <li class="subMenuItem"><a href="./contribution_a.html" class="nav-arrow" >長者服務</a></li>
-                <li class="subMenuItem"><a href="./contribution_b.html" class="nav-arrow" >體育康樂</a></li>
-                <li class="subMenuItem"><a href="./contribution_c.html" class="nav-arrow" >藝術文化</a></li>
-                <li class="subMenuItem"><a href="./contribution_d.html" class="nav-arrow" >教育培訓</a></li>
-                <li class="subMenuItem"><a href="./contribution_e.html" class="nav-arrow" >醫療衛生</a></li>
-                <li class="subMenuItem"><a href="./contribution_f.html" class="nav-arrow" >復康服務</a></li>
-                <li class="subMenuItem"><a href="./contribution_g.html" class="nav-arrow" >家庭服務</a></li>
-                <li class="subMenuItem"><a href="./contribution_h.html" class="nav-arrow" >環境保護</a></li>
-                <li class="subMenuItem"><a href="./contribution_i.html" class="nav-arrow" >扶貧救急</a></li>
-            </ul>
-        </li>
-        <li>馬會知多少
-            <ul class="subMenu">
-                <li class="subMenuItem"><a href="./history.html" class="nav-arrow" >重要里程</a></li>
-                <li class="subMenuItem"><a href="./history_a.html" class="nav-arrow" >香港賽馬博物館</a></li>
-                <li class="subMenuItem"><a href="./history_b.html" class="nav-arrow" >130週年活動回顧</a></li>
-                <li class="subMenuItem"><a href="./history_c.html" class="nav-arrow" >年報</a></li>
-                <li class="subMenuItem"><a href="./history_d.html" class="nav-arrow" >環境可持續發展</a></li>
-            </ul>
-        </li>
-    </ul>
-    </nav>
-    <section class="container" id="main">
-    <div class="shadowL"></div>
-    <div id="corporate-container" class="clearfix">
-        <div class="left">
-            <div class="searchArea"></div>
-            <div class="openData">
-                <table>
-                    <thead>
-                      <tr>
-                          <th>賽程</th>
-                          <th>馬賽結果</th>
-                      </tr>
-                    </thead>
-                    <tbody>
 
-                    </tbody>
-                </table>
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <div class="headerTop clearfix">
+                <div class="headLogo"> <a href="../index.html"></a></div>
+                <div class="headRight"></div>
             </div>
-        </div>
-        <div class="right online_video">
-            <video src="" controls poster="" id="online_video" width="500" height="500"></video>
-        </div>
+            <div class="headerBottom">
+            </div>
+        </header>
+        <nav class="container">
+            <ul class="ulNav clearfix">
+                <li>馬會概況
+                    <ul class="subMenu">
+                        <li class="subMenuItem"><a href="./Introduction.html" class="nav-arrow">目標--使命與核心價值</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_a.html" class="nav-arrow">行政架構</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_b.html" class="nav-arrow">賽馬及馬場娛樂</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_c.html" class="nav-arrow">會員會所</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_d.html" class="nav-arrow">有節制體育博彩及六合彩獎券</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_e.html" class="nav-arrow">慈善事物</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_f.html" class="nav-arrow">馬會體育及社區發展</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_g.html" class="nav-arrow">獎項及榮譽</a></li>
+                        <li class="subMenuItem"><a href="./Introduction_h.html" class="nav-arrow">模擬賽馬開獎結果</a></li>
+                    </ul>
+                </li>
+                <li>成為會員
+                    <ul class="subMenu">
+                        <li class="subMenuItem"><a href="./member.html" class="nav-arrow">簡介</a></li>
+                        <li class="subMenuItem"><a href="./member_a.html" class="nav-arrow">會員卡簽賬權</a></li>
+                        <li class="subMenuItem"><a href="./member_b.html" class="nav-arrow">會員優惠</a></li>
+                        <li class="subMenuItem"><a href="./member_c.html" class="nav-arrow">Young Menbers</a></li>
+                        <li class="subMenuItem"><a href="./member_d.html" class="nav-arrow">會員迎新</a></li>
+                        <li class="subMenuItem"><a href="./member_e.html" class="nav-arrow">遵守事項</a></li>
+                        <li class="subMenuItem"><a href="./member_f.html" class="nav-arrow">駕駛及泊車指南</a></li>
+                        <li class="subMenuItem"><a href="./member_g.html" class="nav-arrow">設施指南</a></li>
+                        <li class="subMenuItem"><a href="./member_h.html" class="nav-arrow">會籍狀態及表格章程</a></li>
+                        <li class="subMenuItem"><a href="./member_i.html" class="nav-arrow">常見問題</a></li>
+                        <li class="subMenuItem"><a href="./member_j.html" class="nav-arrow">電話指南</a></li>
+                    </ul>
+                </li>
+                <li>社區貢獻及慈善
+                    <ul class="subMenu">
+                        <li class="subMenuItem"><a href="./contribution.html" class="nav-arrow">青年發展</a></li>
+                        <li class="subMenuItem"><a href="./contribution_a.html" class="nav-arrow">長者服務</a></li>
+                        <li class="subMenuItem"><a href="./contribution_b.html" class="nav-arrow">體育康樂</a></li>
+                        <li class="subMenuItem"><a href="./contribution_c.html" class="nav-arrow">藝術文化</a></li>
+                        <li class="subMenuItem"><a href="./contribution_d.html" class="nav-arrow">教育培訓</a></li>
+                        <li class="subMenuItem"><a href="./contribution_e.html" class="nav-arrow">醫療衛生</a></li>
+                        <li class="subMenuItem"><a href="./contribution_f.html" class="nav-arrow">復康服務</a></li>
+                        <li class="subMenuItem"><a href="./contribution_g.html" class="nav-arrow">家庭服務</a></li>
+                        <li class="subMenuItem"><a href="./contribution_h.html" class="nav-arrow">環境保護</a></li>
+                        <li class="subMenuItem"><a href="./contribution_i.html" class="nav-arrow">扶貧救急</a></li>
+                    </ul>
+                </li>
+                <li>馬會知多少
+                    <ul class="subMenu">
+                        <li class="subMenuItem"><a href="./history.html" class="nav-arrow">重要里程</a></li>
+                        <li class="subMenuItem"><a href="./history_a.html" class="nav-arrow">香港賽馬博物館</a></li>
+                        <li class="subMenuItem"><a href="./history_b.html" class="nav-arrow">130週年活動回顧</a></li>
+                        <li class="subMenuItem"><a href="./history_c.html" class="nav-arrow">年報</a></li>
+                        <li class="subMenuItem"><a href="./history_d.html" class="nav-arrow">環境可持續發展</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="container" id="main">
+            <div class="shadowL"></div>
+            <div id="corporate-container" class="clearfix" style="padding:25px;">
+                <div class="left">
+                    <div class="searchArea">
+                        <span>日期：</span>
+                        <input type="text" id="dateStart">
+                        <span>-</span>
+                        <input type="text" id="dateEnd">
+                        <span class="searchButton">查询</span>
+                    </div>
+                    <div class="openData">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>賽程</th>
+                                    <th>馬賽結果</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td>
+                                        <i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i></td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i></td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20170613018</td>
+                                    <td><i> 1 </i>
+                                        <i> 2 </i>
+                                        <i> 3 </i>
+                                        <i> 4 </i>
+                                        <i> 5 </i>
+                                        <i> 6 </i>
+                                        <i> 7 </i>
+                                        <i> 8 </i>
+                                        <i> 9 </i>
+                                        <i> 10 </i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="right online_video">
+                    <video src="" controls poster="" id="online_video" width="500" height="320"></video>
+                </div>
+            </div>
+            <div class="shadowR"></div>
+            <div class="clear"></div>
+        </section>
+        <footer class="container">
+            <div id="rgp-container">
+                <div>
+                    <div class="row no-gutter">
+                        <div class="col-md-10 col-sm-10 col-xs-12 marginTop-20px">
+                            <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx"> <b>博彩要有節制</b></a>
+                            <ul class="hidden-xs">
+                                <li>未滿十八歲人士不得投注或進入可投注的地方。</li>
+                                <li>向非法或海外莊家下注，最高可被判監九個月及罰款三萬元。</li>
+                                <li>切勿沉迷賭搏，如需尋求輔導協助，可致電1834633。</li>
+                            </ul>
+                            <ul class="visible-xs">
+                                <li>入場及投注人士須年滿十八歲，切勿沉迷賭博。</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-2 hidden-xs txt-right marginTop-15px">
+                            <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx"><img src="../images/rgp_text_chi_970.gif" style="width: auto"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright-container">
+                <div>
+                    <div class="row no-gutter">
+                        <div class="col-md-8 col-xs-12 col-sm-12 txt-left">
+                            <a class="first" href="http://common.hkjc.com/utility/faq/chinese/general/usage.aspx">常見問題</a>                            | <a href="javascript:NewWindow('http://special.hkjc.com/infomenu/ch/contact/feedback.asp','mypopup','770','550','yes','yes');">聯絡我們</a>                            | <a href="javascript:NewWindow('http://mcs.hkjc.com/','mypopup','770','550','yes','yes');">傳媒專用區</a>                            | <a href="http://www.hkjc.com/home/chinese/sitemap.aspx">網頁指南</a> | <a href="javascript:NewWindow('http://www.hkjc.com/chinese/betting/betting_rule.htm','mypopup','770','550','yes','yes');">規例</a>                            | <a href="http://www.hkjc.com/responsible-gambling/ch/index.aspx">提倡有節制博彩</a> | <a href="http://www.hkjc.com/home/chinese/corporate/corp_privacy.aspx">私隱條款</a>                            | <a href="http://www.hkjc.com/home/chinese/corporate/corp_disclaimer.aspx">免責聲明</a>
+                        </div>
+                        <div class="col-md-4 col-xs-12 col-sm-12 txt-right">
+                            版權所有 不得轉載 © 2000-2017 香港賽馬會
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <div class="shadowR"></div>
-    <div class="clear"></div>
-    </section>
-    <footer class="container">
-        <div id="rgp-container">
-            <div>
-                <div class="row no-gutter">
-                    <div class="col-md-10 col-sm-10 col-xs-12 marginTop-20px">
-                        <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" > <b>博彩要有節制</b></a>
-                        <ul class="hidden-xs">
-                            <li>未滿十八歲人士不得投注或進入可投注的地方。</li>
-                            <li>向非法或海外莊家下注，最高可被判監九個月及罰款三萬元。</li>
-                            <li>切勿沉迷賭搏，如需尋求輔導協助，可致電1834633。</li>
-                        </ul>
-                        <ul class="visible-xs">
-                            <li>入場及投注人士須年滿十八歲，切勿沉迷賭博。</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-2 hidden-xs txt-right marginTop-15px">
-                        <a class="rgp-text" href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" ><img src="../images/rgp_text_chi_970.gif" style="width: auto"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="copyright-container">
-            <div>
-                <div class="row no-gutter">
-                    <div class="col-md-8 col-xs-12 col-sm-12 txt-left">
-                        <a class="first" href="http://common.hkjc.com/utility/faq/chinese/general/usage.aspx" >常見問題</a>                            | <a href="javascript:NewWindow('http://special.hkjc.com/infomenu/ch/contact/feedback.asp','mypopup','770','550','yes','yes');">聯絡我們</a>                            | <a href="javascript:NewWindow('http://mcs.hkjc.com/','mypopup','770','550','yes','yes');">傳媒專用區</a>                            | <a href="http://www.hkjc.com/home/chinese/sitemap.aspx">網頁指南</a> | <a href="javascript:NewWindow('http://www.hkjc.com/chinese/betting/betting_rule.htm','mypopup','770','550','yes','yes');">規例</a>                            | <a href="http://www.hkjc.com/responsible-gambling/ch/index.aspx" >提倡有節制博彩</a>                            | <a href="http://www.hkjc.com/home/chinese/corporate/corp_privacy.aspx">私隱條款</a> | <a href="http://www.hkjc.com/home/chinese/corporate/corp_disclaimer.aspx">免責聲明</a>
-                    </div>
-                    <div class="col-md-4 col-xs-12 col-sm-12 txt-right">
-                        版權所有 不得轉載 © 2000-2017 香港賽馬會
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
 </body>
 <script>
-   $(function(){
-       $.ajax({
-           
-       })
-   });
+    $(function () {
+        var start = {
+            elem: '#dateStart',
+            format: 'YYYY/MM/DD',
+            min: laydate.now(), //设定最小日期为当前日期
+            max: '2099-06-16', //最大日期
+            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                // end.min = datas; //开始日选好后，重置结束日的最小日期
+                // end.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var end = {
+            elem: '#dateEnd',
+            format: 'YYYY/MM/DD',
+            min: laydate.now(),
+            max: '2099-06-16',
+            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                // start.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        laydate(start);
+        laydate(end);
+    });
 </script>
+
 </html>

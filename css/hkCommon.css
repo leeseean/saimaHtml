@@ -168,3 +168,15 @@ body h4 {
     font-size: 1.286em;
 }
 
+.inline-block{
+    display: inline-block;
+}
+.m0_4{
+    margin: 0 4px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
