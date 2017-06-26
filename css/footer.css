@@ -38,3 +38,12 @@
     font-size: 1em;
     text-decoration: none;
 }
+#main #home-container {
+    font-size: 1em;
+    float: left;
+    width: 99%;
+    background-color: #fff;
+}
+#the-hong-kong-jockey-club ol{
+    margin-left:24px;
+}
