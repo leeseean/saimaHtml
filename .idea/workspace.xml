@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b03d56-4e8c-4f8f-8d64-6ca88ff757ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction.html" afterPath="$PROJECT_DIR$/html/Introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_a.html" afterPath="$PROJECT_DIR$/html/Introduction_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_b.html" afterPath="$PROJECT_DIR$/html/Introduction_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_c.html" afterPath="$PROJECT_DIR$/html/Introduction_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_d.html" afterPath="$PROJECT_DIR$/html/Introduction_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_e.html" afterPath="$PROJECT_DIR$/html/Introduction_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_f.html" afterPath="$PROJECT_DIR$/html/Introduction_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_g.html" afterPath="$PROJECT_DIR$/html/Introduction_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Introduction_h.html" afterPath="$PROJECT_DIR$/html/Introduction_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution.html" afterPath="$PROJECT_DIR$/html/contribution.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_a.html" afterPath="$PROJECT_DIR$/html/contribution_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_b.html" afterPath="$PROJECT_DIR$/html/contribution_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_c.html" afterPath="$PROJECT_DIR$/html/contribution_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_d.html" afterPath="$PROJECT_DIR$/html/contribution_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_e.html" afterPath="$PROJECT_DIR$/html/contribution_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_f.html" afterPath="$PROJECT_DIR$/html/contribution_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_g.html" afterPath="$PROJECT_DIR$/html/contribution_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_h.html" afterPath="$PROJECT_DIR$/html/contribution_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contribution_i.html" afterPath="$PROJECT_DIR$/html/contribution_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history.html" afterPath="$PROJECT_DIR$/html/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_a.html" afterPath="$PROJECT_DIR$/html/history_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_b.html" afterPath="$PROJECT_DIR$/html/history_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_c.html" afterPath="$PROJECT_DIR$/html/history_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_c_1415.html" afterPath="$PROJECT_DIR$/html/history_c_1415.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/history_d.html" afterPath="$PROJECT_DIR$/html/history_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member.html" afterPath="$PROJECT_DIR$/html/member.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_a.html" afterPath="$PROJECT_DIR$/html/member_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_b.html" afterPath="$PROJECT_DIR$/html/member_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_c.html" afterPath="$PROJECT_DIR$/html/member_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_d.html" afterPath="$PROJECT_DIR$/html/member_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_e.html" afterPath="$PROJECT_DIR$/html/member_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_f.html" afterPath="$PROJECT_DIR$/html/member_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_h.html" afterPath="$PROJECT_DIR$/html/member_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_i.html" afterPath="$PROJECT_DIR$/html/member_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/member_j.html" afterPath="$PROJECT_DIR$/html/member_j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sprite.html" afterPath="$PROJECT_DIR$/images/sprite.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/新建文本文档.html" afterPath="$PROJECT_DIR$/新建文本文档.html" />
     </list>
     <ignored path="香港赛马会.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,17 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="member_b.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/member_b.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.288889">
-              <caret line="185" column="13" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.2936118">
+              <caret line="405" column="47" selection-start-line="405" selection-start-column="47" selection-end-line="405" selection-end-column="47" />
               <folding>
-                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -199,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/privacy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0552826">
-              <caret line="307" column="13" selection-start-line="270" selection-start-column="4" selection-end-line="307" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.088889">
+              <caret line="292" column="17" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -263,7 +223,6 @@
         <option value="$PROJECT_DIR$/css/Introduction.css" />
         <option value="$PROJECT_DIR$/html/duty.html" />
         <option value="$PROJECT_DIR$/images/sprite.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/privacy.html" />
         <option value="$PROJECT_DIR$/html/contribution.html" />
         <option value="$PROJECT_DIR$/html/contribution_a.html" />
@@ -300,6 +259,7 @@
         <option value="$PROJECT_DIR$/html/member_h.html" />
         <option value="$PROJECT_DIR$/html/member_i.html" />
         <option value="$PROJECT_DIR$/html/member_j.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -560,19 +520,6 @@
         <state vertical-scroll-proportion="-4.111111">
           <caret line="67" column="706" selection-start-line="67" selection-start-column="706" selection-end-line="67" selection-end-column="706" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.244445">
-          <caret line="419" column="851" selection-start-line="419" selection-start-column="851" selection-end-line="419" selection-end-column="851" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,8 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0552826">
-          <caret line="307" column="13" selection-start-line="270" selection-start-column="4" selection-end-line="307" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.088889">
+          <caret line="292" column="17" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1117,6 +1064,18 @@
             <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ol#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#li#1;n#ol#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#li#1;n#ol#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2936118">
+          <caret line="405" column="47" selection-start-line="405" selection-start-column="47" selection-end-line="405" selection-end-column="47" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
