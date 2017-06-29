@@ -419,11 +419,13 @@ body p {
     border-bottom: 1px dotted #cfcfcf;
     padding: 3px 0;
 }
-#corporate-container .tableArea{
+
+#corporate-container .tableArea {
     width: 55%;
     padding: 15px 15px 0 15px;
     border: 1px solid #ebebeb;
 }
+
 #corporate-container>div.online_video {
     width: 40%;
 }
@@ -506,7 +508,7 @@ i {
     line-height: 22px;
     font-weight: bold;
     color: #636363;
-    border:1px solid #bcbcbc;
+    border: 1px solid #bcbcbc;
     border-radius: 2px;
     box-sizing: content-box;
     margin: 0 5px;
@@ -529,13 +531,16 @@ i {
 .openData table td i:nth-child(3) {
     background: #613d0b;
 }
-.searchArea .dateLabel{
-    color:#111111;
+
+.searchArea .dateLabel {
+    color: #111111;
 }
-.online_video .videoWrapper{
+
+.online_video .videoWrapper {
     width: 100%;
 }
-.online_video .videoWrapper .videoTitle{
+
+.online_video .videoWrapper .videoTitle {
     font-size: 18px;
     background: #044187;
     color: #fff;
@@ -543,10 +548,11 @@ i {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    border-top-left-radius:8px;
+    border-top-left-radius: 8px;
 }
-.online_video .videoWrapper .videoTime{
-    background:#000000;
+
+.online_video .videoWrapper .videoTime {
+    background: #000000;
     color: #c9b385;
     width: 30%;
     height: 35px;
@@ -554,12 +560,14 @@ i {
     text-align: center;
     border-top-right-radius: 8px;
 }
-.online_video .videoWrapper .videoContent{
+
+.online_video .videoWrapper .videoContent {
     background: #424242;
-    height: 323px;
+    height: 263px;
     width: 100%;
 }
-.online_video .videoWrapper .videoIssue{
+
+.online_video .videoWrapper .videoIssue {
     background: #000000;
     height: 24px;
     line-height: 24px;
@@ -567,7 +575,8 @@ i {
     padding-right: 8px;
     color: #c9b385;
 }
-.online_video .videoWrapper .videoTip{
+
+.online_video .videoWrapper .videoTip {
     background: #044187;
     height: 35px;
     line-height: 35px;
@@ -577,25 +586,73 @@ i {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-.remark p{
-    color:#000000;
+
+.remark p {
+    color: #000000;
     margin: 0;
     color: #222222;
     font-weight: bold;
 }
-.m0_2{
+
+.m0_2 {
     margin: 0 2px;
 }
-.openData .page{
+
+.openData .page {
     width: 100%;
     text-align: center;
 }
-.openData .page .num{
+
+.openData .page .num {
     padding: 5px 8px;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
     font-weight: 600;
 }
-.openData .page .num.on{
+
+.openData .page .num.on {
     color: #022169;
+}
+
+.videoTip .expendVideo {
+    position: relative;
+    right: -75px;
+    color: papayawhip;
+    cursor: pointer;
+}
+
+.videoTip .expendVideo:hover {
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease-out 0;
+    -moz-transition: all 0.3s ease-out 0;
+    transition: all 0.3s ease-out 0;
+}
+
+
+/*賽馬iframe*/
+
+iframe#horseRaceFrame {
+    width: 100%;
+    height: 100%;
+}
+
+.closeFullHorseVideo {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    top: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    box-sizing: content-box;
+    color: white;
+    background: rebeccapurple;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.closeFullHorseVideo:hover {
+    background: orange;
 }

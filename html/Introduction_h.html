@@ -19,9 +19,11 @@
 
     <script type="text/javascript" src="../js/vender/jquery.js"></script>
     <script type="text/javascript" src="../js/vender/laydate/laydate.js"></script>
+    <script type="text/javascript" src="../js/vender/dialog-min.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
 
     <title>香港賽馬會</title>
+
 </head>
 
 <body>
@@ -288,12 +290,15 @@
                             <span class="videoTitle left">模擬賽馬開獎視頻 3分鐘一期</span>
                             <span class="videoTime right"><i></i>02<i class="m0_2">:</i>59<i class="m0_2">:</i>59</span>
                         </div>
-                        <div class="videoContent"></div>
+                        <div class="videoContent">
+                            <iframe src="./horseRace/horseRace.html" id="horseRaceFrame" name="horseRaceFrame" scrolling="no"></iframe>
+                        </div>
                         <div class="videoIssue">
                             當前場次：20170613-018
                         </div>
                         <div class="videoTip">
                             無需下載程式，在線觀看賽馬開獎
+                            <i class="fa fa-expand expendVideo" title="放大观看"></i>
                         </div>
                     </div>
                     <div class="remark">
@@ -310,7 +315,7 @@
                 <div>
                     <div class="row no-gutter">
                         <div class="col-md-10 col-sm-10 col-xs-12 marginTop-20px">
-                            <a class="rgp-text" href="./Introduction_d.html" > <b>博彩要有節制</b></a>
+                            <a class="rgp-text" href="./Introduction_d.html"> <b>博彩要有節制</b></a>
                             <ul class="hidden-xs">
                                 <li>未滿十八歲人士不得投注或進入可投注的地方。</li>
                                 <li>向非法或海外莊家下注，最高可被判監九個月及罰款三萬元。</li>
@@ -321,7 +326,7 @@
                             </ul>
                         </div>
                         <div class="col-md-2 col-sm-2 hidden-xs txt-right marginTop-15px">
-                            <a class="rgp-text" href="./Introduction_d.html" ><img src="../images/rgp_text_chi_970.gif" style="width: auto"></a>
+                            <a class="rgp-text" href="./Introduction_d.html"><img src="../images/rgp_text_chi_970.gif" style="width: auto"></a>
                         </div>
                     </div>
                 </div>
@@ -330,9 +335,9 @@
                 <div>
                     <div class="row no-gutter">
                         <div class="col-md-8 col-xs-12 col-sm-12 txt-left">
-                            <a class="first" href="./member_i.html" >常見問題</a>|
+                            <a class="first" href="./member_i.html">常見問題</a>|
                             <a href="javascript:void(0);">聯絡我們</a>|
-                            <a href="./Introduction_d.html" >提倡有節制博彩</a>|
+                            <a href="./Introduction_d.html">提倡有節制博彩</a>|
                             <a href="./privacy.html">私隱條款</a> |
                             <a href="./duty.html">免責聲明</a>
                         </div>
@@ -372,6 +377,21 @@
         };
         laydate(start);
         laydate(end);
+
+        //彈窗全屏觀看
+        var horseRaceFrame = $('#horseRaceFrame');
+        $('.videoTip .expendVideo').off('click').on('click', function (e) {
+           $(window.frames["horseRaceFrame"].document).find('html').attr('zoom','1');
+           horseRaceFrame.css({
+               'position':'fixed',
+               'left':0,
+               'right':0,
+               'top':0,
+               'bottom':0,
+               'margin-left':'-400px',
+               'margin-top':'-308px',
+           });
+        });
     });
 </script>
 

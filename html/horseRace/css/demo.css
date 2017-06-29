@@ -1,0 +1,282 @@
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+@keyframes horse_run {
+    0% {background-position: 20px 0;}
+    7.14% {background-position: -125px 0;}
+    14.28% {background-position: -280px 0;}
+    21.42% {background-position: 0px -100px;}
+    28.56% {background-position: -155px -100px;}
+    35.7% {background-position: -310px -100px;}
+    42.84% {background-position: 0px -203.5px;}
+    49.98% {background-position: -155px -203.5px;}
+    57.12% {background-position: -310px -203.5px;}
+    64.26% {background-position: 0px -310px;}
+    71.4% {background-position: -150px -310px;}
+    78.54% {background-position: -295px -310px;}
+    85.68% {background-position: 15px -412px;}
+    92.82% {background-position: -135px -412px;}
+    100% {background-position: -285px -412px;}
+}
+.innerHorseWrap{
+    height: 608px;
+    overflow: hidden;
+    width: 800px;
+    position: relative;
+}
+.horseWrap{
+    background: url(../images/horseRoad.png) repeat-x;
+    height:306px;
+    width: 800px;
+    position: relative;
+    transition: left linear .1s;
+    background-position: 0 0;
+}
+.horse{
+    width: 150px;
+    height: 99px;
+    position: absolute;
+    background-position: 25px 0;
+    z-index: 1;
+}
+.horseSky{
+    width:800px;
+    height:98px;
+    margin-bottom: -5px;
+    background-image: url(../images/horseSky.png);
+    background-repeat: repeat-x;
+}
+.horseLineLeft{
+    position: absolute;
+    width:11px;
+    height:306px;
+    left:40px;
+    background-image: url(../images/horseLine.png);
+    background-repeat: repeat-y;
+}
+.horseOrders{
+    position: absolute;
+    left:65px;
+    height:306px;
+    width: 35px;
+    text-align: center;
+}
+.horseOrders .horseOrder{
+    width:100%;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    font-weight:bold;
+}
+
+.horseOrders .horseOrder.horseOrder_10{
+    background-color: #8866f6;
+    color: #000000;
+}
+.horseOrders .horseOrder.horseOrder_9{
+    background-color: #4e92f9;
+    color: #000000;
+}
+.horseOrders .horseOrder.horseOrder_8{
+    background-color: #f87b00;
+    color: #000000;
+}
+.horseOrders .horseOrder.horseOrder_7{
+    background-color: #e800fd;
+    color: #000000;
+}
+.horseOrders .horseOrder.horseOrder_6{
+    background-color: #212020;
+    color: #ffc000;
+}
+.horseOrders .horseOrder.horseOrder_5{
+    background-color: #00d422;
+    color: #ffffff;
+}
+.horseOrders .horseOrder.horseOrder_4{
+    background-color: #fbd500;
+    color: #1c1a18;
+}
+.horseOrders .horseOrder.horseOrder_3{
+    background-color: #0006ef;
+    color: #ffffff;
+}
+.horseOrders .horseOrder.horseOrder_2{
+    background-color: #dcd9d9;
+    color: #1c1a18;
+}
+.horseOrders .horseOrder.horseOrder_1{
+    background-color: #ef0404;
+    color: #ffffff;
+}
+
+.horseLineRight{
+    position: absolute;
+    width:11px;
+    height:306px;
+    right:-75px;
+    top: 95px;
+    background-image: url(../images/horseLine.png);
+    background-repeat: repeat-y;
+}
+.horseQuanWrap{
+    overflow: hidden;
+    width: 800px;
+    height: 404px;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.horseQuan{
+    width:160px;
+    height:98px;
+    position: absolute;
+    right: -160px;
+    top:0px;
+    background: url(../images/quanquan.png) no-repeat;
+}
+.hidden{
+    display: none!important;
+}
+.paused {
+    animation-play-state: paused!important;
+}
+.running {
+    animation-play-state: running!important;
+}
+.inline-block{
+    display: inline-block;
+}
+i{
+    font-style: normal;
+}
+.bottomSpace{
+    background-color: #0c264f;
+    width:800px;
+    height:102px;
+    line-height:102px;
+    margin-top: -2px;
+}
+
+.bottomSpace .logoIssue{
+    width:20%;
+    position: relative;
+}
+.bottomSpace .rangeNums{
+    width:80%;
+    margin-top:15px;
+    line-height:125px;
+}
+.bottomSpace .horseLogo{
+    width: 135px;
+    height: 52px;
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+}
+.bottomSpace .logoIssue .horseIssue{
+    border: 1px solid #878c1c;
+    height: 50px;
+    position: absolute;
+    top: 31px;
+    width: 145px;
+    left: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+}
+.bottomSpace .logoIssue .horseIssue .horseIssueTitle{
+    position: absolute;
+    top: -38px;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.bottomSpace .logoIssue .horseIssue .horseIssueDetail{
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    margin-left: 18px;
+}
+.rangeNum_10,.rangeNum_9,.rangeNum_8,.rangeNum_7,.rangeNum_6,.rangeNum_5,.rangeNum_4,.rangeNum_3,.rangeNum_2,.rangeNum_1{
+    /*color: #ffffff;*/
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    /*text-align: center;*/
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #d5e9f5;*/
+    position: relative;
+    margin:0 5px;
+}
+.rangeNums .rangeNum{
+    position: absolute;
+    top: -38px;
+    left: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f7f7f7;
+}
+
+.horseNum{
+    background-image: url(../images/number_h.png);
+    background-repeat: no-repeat;
+}
+
+.rangeNums .rangeNum_10 .rangeNum{
+    left: 12px;
+}
+.rangeNum_10{
+    /*background-color: #dd3022;*/
+    color: #ffffff;
+}
+.rangeNum_9{
+    /*background-color: #d9d7d7;*/
+    color:#1b1a18;
+}
+.rangeNum_8{
+    /*background-color: #0022e6;*/
+    color: #ffffff;
+}
+.rangeNum_7{
+    /*background-color: #eaca44;*/
+    color: #1c1a18;
+}
+.rangeNum_6{
+    /*background-color: #5ccd46;*/
+    color: #ffffff;;
+}
+.rangeNum_5{
+    /*background-color: #202020;*/
+    color: #f7c143;;
+}
+.rangeNum_4{
+    /*background-color: #d43af3;*/
+    color: #1b1a18;
+}
+.rangeNum_3{
+    /*background-color: #e88030;*/
+    color: #000000;
+}
+.rangeNum_2{
+    /*background-color: #578ee9;*/
+    color: #000000;
+}
+.rangeNum_1{
+    /*background-color: #7461d4;*/
+    color: #000000;
+}
