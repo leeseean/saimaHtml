@@ -446,6 +446,7 @@ body p {
     color: #4f493e;
     border-radius: 3px;
     font-weight: 600;
+    vertical-align: middle;
 }
 
 .searchButton:hover {
